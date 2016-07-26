@@ -1,0 +1,27 @@
+{
+  "name": "docker-swarm-gui",
+  "version": "1.0.0",
+  "description": "Simple docker swarm GUI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmm/docker-swarm-gui.git"
+  },
+  "keywords": [
+    "docker"
+    "swarm",
+    "GUI"
+  ],
+  "author": "Lucas Mendes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasmm/docker-swarm-gui/issues"
+  },
+  "homepage": "https://github.com/lucasmm/docker-swarm-gui#readme",
+  "dependencies": {
+      "express": "^4.14.0"
+  }
+}
